@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="QuickIntegrater">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/QuickIntegrater.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

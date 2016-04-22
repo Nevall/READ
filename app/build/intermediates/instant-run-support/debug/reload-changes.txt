@@ -1,0 +1,4 @@
+CHANGED,D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\interest\myapplication\adapter\CollectionFragmentAdapter$1$override.class
+CHANGED,D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\interest\myapplication\adapter\CollectionFragmentAdapter$override.class
+CHANGED,D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\interest\myapplication\adapter\CollectionFragmentAdapter$MyViewHolder$override.class

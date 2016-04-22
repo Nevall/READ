@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0_352bae7973ce3431d0057e3aad33427d2db3baf1.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\QuickIntegrater.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e24e7184e6bb203eeb276c873e297b40e27bcfb3">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\QuickIntegrater_a27edeba631e41801b1b943f83174af3dbcb03ed.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ormlite-core-4.49-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9a8b276da6dada8141f614d3feba25a0e8589db7">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ormlite-core-4.49-SNAPSHOT_a35939c1a7d6d57f88e843d1bac179b7f4845e5b.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-QZone-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e59c1382c126349d3b2a4e45e880710fe649697c">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-QZone-2.7.0_38e5b8a34dc5533dcd26647d273f280766781063.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-Wechat-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77370e7e49ebe4ae5b9c32e07424235a59f9e12c">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-2.7.0_c5932af65f11e194a8c530d573bf5f2a14ad55a5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-TencentWeibo-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4f040449556e454137d51011cf016ea7a4756d3d">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-TencentWeibo-2.7.0_76946e09e1e96e01ac0e57b872813f4db840be3c.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\okhttputils-2_3_5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3323489bac36e888b398004ade10ee084bed6bcf">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\okhttputils-2_3_5_4191d38b03142ca6117fef86a9bc1c3138d33ba7.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\okhttp-3.2.0_a5604fe0550f98927d1b11423ae68ef7dff2650d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-QQ-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="08e3ecb5b9a36d03bdc9cd54078e221fd2ef401d">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-QQ-2.7.0_f1fdadbc93f85c89adbc85414346f7437da2b0b8.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\MobCommons-2016.0301.1053.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9ac79e45bfe01ce2bac0a1d1ead2aba2524f4c8b">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\MobCommons-2016.0301.1053_4e19ca329034aa63142fbc2fe4253e8d34af9bd5.jar" />
+    </item>
+    <item
+        jar="D:\android-studio-ide-143.2664576-windows_2.1\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\gson-2.2.4_4da06c54d5100fd561e28f2b14617ed539f408c4.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\com.android.support-design-23.1.0_5c9571effca358d9e46f095033ad2a77fc9518d5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0_dada23c7fce84f92ba3c362f588d08c107fb8603.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-Core-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="89e252feaeae2a7baa6b5e1ac4e3fc1d4c4e70d1">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-Core-2.7.0_d663049363815241278051765c12a7e2a7859ede.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ormlite-android-4.48_1a3abae01dacd806448ea356f5138f6aa834786b.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.1.0_076c0820e93369a3ec0736db1d096ee452f1e56d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\okio-1.6.0_e2c280e4ca1836a8f97b1225457d6c83d048f5bb.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.0_844fb9f2ceb205527ba993ed5bb7195bdd7d9452.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\universal-image-loader-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.0_64fc5b563ee1731c360327972607dea62b2c5d85.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-Wechat-Favorite-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="471edb8603a1c547df2b9b4f830c97a881d325a6">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Favorite-2.7.0_e7af4b22e67777643b81d59f8c48672a0668ff8b.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-Wechat-Moments-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0dfe0a575c3b6c39e2e4b3a74f1bac84b618cca0">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Moments-2.7.0_ebbf0bcb7d39e978b226127dc59079d62b7ad57e.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-23.1.0_355d33fe785ae739263a3f6fa674862f3b08551f.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.1.0_b7f276befd53bb7358b5c648718d7195ffb477c4.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\ShareSDK-Wechat-Core-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="925c0b32df7cfb1256002f7b0f861ff7c02617b7">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Core-2.7.0_56ce639f31c4eb27b4b9d16523778da1c798b8be.jar" />
+    </item>
+    <item
+        jar="D:\AndroidWork\Mi\Hero\app\libs\MobTools-2016.0301.1053.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fe9bb68bf9983f6fd4882e89ea11bf6f2bbb1ded">
+        <dex dex="D:\AndroidWork\Mi\Hero\app\build\intermediates\pre-dexed\release\MobTools-2016.0301.1053_68772c00e2d51bc1a4d62cb3bbd416e93b2cfa18.jar" />
+    </item>
+
+</items>

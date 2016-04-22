@@ -300,18 +300,35 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="action_collection">收藏</string>
-    <string name="action_settings">设置</string>
+    <string name="about">关于</string>
+    <string name="about_detail"> 感谢以下开源框架：\nOkHttp框架 Gson框架 ImageLoader框架 OrmLite框架 MobTools框架 ShareSDK框架\n如有任何建议请发邮件到 near-2009@live.cn</string>
+    <string name="again">再按一次退出</string>
     <string name="app_name">简阅</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="cancle">撤销</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
+    <string name="clead_cache_success">已清除缓存</string>
+    <string name="closeing">安全关闭</string>
+    <string name="collection">收藏</string>
     <string name="collection_is_empty">暂无收藏</string>
+    <string name="delete_cache">清除缓存</string>
+    <string name="delete_item">已删除不感兴趣的Item</string>
+    <string name="deleting_cache">正在清除缓存...</string>
+    <string name="description">描述</string>
     <string name="editor">主编</string>
     <string name="is_save">已经收藏过了</string>
+    <string name="load_data">正在获取订单...</string>
     <string name="main">首页</string>
+    <string name="name">商品名称</string>
     <string name="network_is_not_connected">网络无法连接</string>
     <string name="network_is_not_connected_and_load">网络无法连接，没有更多离线内容了</string>
     <string name="no_data_share">暂无数据分享</string>
+    <string name="pay">捐赠</string>
+    <string name="pay_break_off">支付中断!</string>
+    <string name="pay_success">支付成功!</string>
+    <string name="quite">安全退出</string>
+    <string name="result_unknow">支付结果未知,请稍后手动查询</string>
+    <string name="right_number">请输入正确金额，谢谢</string>
     <string name="save_success">收藏话题成功</string>
     <string name="share">想给大家分享一篇文章</string>
     <string name="ssdk_alipay">支付宝好友</string>
@@ -465,7 +482,9 @@ function login(form){
     <string name="ssdk_yixinmoments">易信朋友圈</string>
     <string name="ssdk_youdao">有道云笔记</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sure">确定</string>
     <string name="topic">今日热闻</string>
+    <string name="wait">获取订单成功!请等待跳转到支付页面~</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

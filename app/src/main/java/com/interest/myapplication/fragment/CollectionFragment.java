@@ -78,15 +78,15 @@ public class CollectionFragment extends BaseFragment {
 
 	@Override
 	protected void initData(){
+		dao = new StoriesEntityDao(mActivity);
 		load();
 	}
 
 	public void load(){
-		dao = new StoriesEntityDao(mActivity);
 		storiesEntities = dao.listAll();
 		if (!storiesEntities.isEmpty()) {
 			adapter.addList(storiesEntities);
-		} else if (!this.isHidden()) {
+		} else {
 			Toast.makeText(mActivity, R.string.collection_is_empty, Toast.LENGTH_SHORT).show();
 		}
 	}

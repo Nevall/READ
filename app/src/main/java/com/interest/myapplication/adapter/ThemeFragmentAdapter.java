@@ -143,7 +143,9 @@ implements ItemTouchHelperAdapter{
 		public void onClick(View v) {
 			if (mListener != null) {
 				//ָ���Զ����item�������
-				mListener.onItemClick(v, mData.get(getAdapterPosition()));
+				if (Constant.TOPIC != mData.get(getAdapterPosition()).getType()) {
+					mListener.onItemClick(v, mData.get(getAdapterPosition()));
+				}
 			}
 		}
 	}
@@ -166,8 +168,8 @@ implements ItemTouchHelperAdapter{
 		final StoriesEntity prev = mData.remove(position);
 		notifyItemRemoved(position);
 		if (position != 0) {
-			Snackbar.make(recyclerView,"已删除不感兴趣的Item", Snackbar.LENGTH_SHORT)
-			.setAction("撤销", new OnClickListener() {
+			Snackbar.make(recyclerView,R.string.delete_item, Snackbar.LENGTH_SHORT)
+			.setAction(R.string.cancle, new OnClickListener() {
 
 				@Override
 				public void onClick(View v) {

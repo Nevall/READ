@@ -4,29 +4,48 @@
     api-level="21"
     density="xhdpi"
     format="6"
-    timestamp="14440274355056" >
+    timestamp="4754595217907" >
 
     <task
         name="javac"
-        duration="787" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="0" />
     <task
         name="verifier"
-        duration="72" />
+        duration="0" />
 
     <artifact
-        location="D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2_33d373ba71781f9c0bd025e689b86fe804c5da3f\classes.dex"
-        type="DEX" />
+        location="D:\AndroidWork\Mi\Hero\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="14440274355056" >
+    <build timestamp="3226265577180" >
+        <artifact
+            location="D:\AndroidWork\Mi\Hero\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="4534621314988" >
+        <artifact
+            location="D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5_ef809ebb5d68a7d554911232e13dfdbaba4fc080\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3_3622ad804e205bb11fedf68b566ecae0a703bd31\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0_52f62899187c3e5a88aa36c6e998f296aae420e1\classes.dex"
+            type="DEX" />
         <artifact
             location="D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2_33d373ba71781f9c0bd025e689b86fe804c5da3f\classes.dex"
             type="DEX" />
+    </build>
+    <build timestamp="4754595217907" >
+        <artifact
+            location="D:\AndroidWork\Mi\Hero\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

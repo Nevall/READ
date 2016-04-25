@@ -1,0 +1,1 @@
+CHANGED,D:\AndroidWork\Mi\Hero\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\interest\myapplication\adapter\CollectionFragmentAdapter.class

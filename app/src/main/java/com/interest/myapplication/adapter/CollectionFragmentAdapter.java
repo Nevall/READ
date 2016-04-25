@@ -31,7 +31,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 
 @SuppressLint("NewApi")
 public class CollectionFragmentAdapter extends Adapter<CollectionFragmentAdapter.MyViewHolder>
-implements ItemTouchHelperAdapter{
+		implements ItemTouchHelperAdapter{
 
 	private Context context;
 	private RecyclerView recyclerView;
@@ -44,9 +44,9 @@ implements ItemTouchHelperAdapter{
 		this.context = context;
 		this.recyclerView = recyclerView;
 		this.mData = new ArrayList<StoriesEntity>();
-		options = new DisplayImageOptions.Builder()  
-				.cacheInMemory(true)  
-				.cacheOnDisc(true)  
+		options = new DisplayImageOptions.Builder()
+				.cacheInMemory(true)
+				.cacheOnDisc(true)
 				.build();
 		dao = new StoriesEntityDao(context);
 	}
@@ -135,7 +135,6 @@ implements ItemTouchHelperAdapter{
 				}
 			}
 		}
-
 	}
 
 	/**
@@ -144,11 +143,11 @@ implements ItemTouchHelperAdapter{
 	 */
 	@Override
 	public void onItemMove(int fromPosition, int toPosition) {
-		//		StoriesEntity prev = mData.remove(fromPosition);
-		//		mData.add(toPosition, prev);
-		//		//�������������ƶ�ʱ����ݲ�����󣬲��������޸ı�
-		//		mItems.add(toPosition > fromPosition ? toPosition - 1 : toPosition, prev);
-		//		notifyItemMoved(fromPosition, toPosition);
+//		StoriesEntity prev = mData.remove(fromPosition);
+//		mData.add(toPosition, prev);
+//		//�������������ƶ�ʱ����ݲ�����󣬲��������޸ı�
+//		mData.add(toPosition > fromPosition ? toPosition - 1 : toPosition, prev);
+//		notifyItemMoved(fromPosition, toPosition);
 	}
 
 	@Override
@@ -158,13 +157,13 @@ implements ItemTouchHelperAdapter{
 		final StoriesEntity prev = mData.remove(position);
 		notifyItemRemoved(position);
 		Snackbar.make(recyclerView,R.string.delete_item, Snackbar.LENGTH_SHORT)
-		.setAction(R.string.cancle, new OnClickListener() {
+				.setAction(R.string.cancle, new OnClickListener() {
 
-			@Override
-			public void onClick(View v) {
-				addData(position,prev);
-			}
-		}).show();
+					@Override
+					public void onClick(View v) {
+						addData(position,prev);
+					}
+				}).show();
 	}
 
 	/**
@@ -178,12 +177,12 @@ implements ItemTouchHelperAdapter{
 		notifyItemInserted(position);
 	}
 
-	/** 
+	/**
 	 * ����Item������� ,����������
-	 * @param listener 
-	 */  
-	public void setOnItemClickListener(MyItemClickListener listener){  
-		this.mItemClickListener = listener;  
+	 * @param listener
+	 */
+	public void setOnItemClickListener(MyItemClickListener listener){
+		this.mItemClickListener = listener;
 	}
 
 	/**

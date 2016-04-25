@@ -97,9 +97,10 @@ public class MainFragment extends BaseFragment {
 		adapter = new MainFragmentAdapter(getActivity(),recyclerView);
 		recyclerView.setAdapter(adapter);
 		//����RecycleView�����ƶ��Ͳ໬ɾ����
-		ItemTouchHelper.Callback callback = new SimpleItemTouchHelperCallback(adapter);
-		ItemTouchHelper mItemTouchHelper = new ItemTouchHelper(callback);
-		mItemTouchHelper.attachToRecyclerView(recyclerView);
+		//由于滑动删除功能有冲突，取消该功能
+//		ItemTouchHelper.Callback callback = new SimpleItemTouchHelperCallback(adapter);
+//		ItemTouchHelper mItemTouchHelper = new ItemTouchHelper(callback);
+//		mItemTouchHelper.attachToRecyclerView(recyclerView);
 
 	}
 
@@ -230,7 +231,7 @@ public class MainFragment extends BaseFragment {
 		date = before.getDate();
 		StoriesEntity topic = new StoriesEntity();
 		topic.setType(Constant.TOPIC);
-		topic.setTitle(DateUtils.convertDate(before.getDate()));
+		topic.setTitle(DateUtils.convertDate(mActivity,before.getDate()));
 		storiesEntities = before.getStories();
 		storiesEntities.add(0, topic);
 		adapter.addList(storiesEntities);

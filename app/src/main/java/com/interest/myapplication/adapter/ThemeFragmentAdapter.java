@@ -29,7 +29,7 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 public class ThemeFragmentAdapter extends Adapter<ThemeFragmentAdapter.MyViewHolder>
-implements ItemTouchHelperAdapter{
+{
 
 	private Context context;
 	private RecyclerView recyclerView;
@@ -150,46 +150,47 @@ implements ItemTouchHelperAdapter{
 		}
 	}
 
-	/**
-	 * ʵ�������ƶ��Ͳ໬ɾ���� 
-	 * TODO �����ƶ����ܺ�ˢ�¹��ܳ�ͻ��δ�������ʱ�Ƴ�ù���
-	 */
-	@Override
-	public void onItemMove(int fromPosition, int toPosition) {
-		//		StoriesEntity prev = mData.remove(fromPosition);
-		//		mData.add(toPosition, prev);
-		//		//�������������ƶ�ʱ����ݲ�����󣬲��������޸ı�
-		//		mItems.add(toPosition > fromPosition ? toPosition - 1 : toPosition, prev);
-		//		notifyItemMoved(fromPosition, toPosition);
-	}
-
-	@Override
-	public void onItemDismiss(final int position) {
-		final StoriesEntity prev = mData.remove(position);
-		notifyItemRemoved(position);
-		if (position != 0) {
-			Snackbar.make(recyclerView,R.string.delete_item, Snackbar.LENGTH_SHORT)
-			.setAction(R.string.cancle, new OnClickListener() {
-
-				@Override
-				public void onClick(View v) {
-					addData(position,prev);
-				}
-			}).show();
-		}
-		if (position == 0) {
-			addData(position,prev);
-		}
-	}
-
-	/**
-	 * �����ɾ������
-	 * @param position
-	 */
-	public void addData(int position,StoriesEntity item) {
-		mData.add(position, item);
-		notifyItemInserted(position);
-	}
+//	/**
+//	 * 由于滑动删除功能冲突，取消滑动删除功能
+//	 * ʵ�������ƶ��Ͳ໬ɾ����
+//	 * TODO �����ƶ����ܺ�ˢ�¹��ܳ�ͻ��δ�������ʱ�Ƴ�ù���
+//	 */
+//	@Override
+//	public void onItemMove(int fromPosition, int toPosition) {
+//		//		StoriesEntity prev = mData.remove(fromPosition);
+//		//		mData.add(toPosition, prev);
+//		//		//�������������ƶ�ʱ����ݲ�����󣬲��������޸ı�
+//		//		mItems.add(toPosition > fromPosition ? toPosition - 1 : toPosition, prev);
+//		//		notifyItemMoved(fromPosition, toPosition);
+//	}
+//
+//	@Override
+//	public void onItemDismiss(final int position) {
+//		final StoriesEntity prev = mData.remove(position);
+//		notifyItemRemoved(position);
+//		if (position != 0) {
+//			Snackbar.make(recyclerView,R.string.delete_item, Snackbar.LENGTH_SHORT)
+//			.setAction(R.string.cancle, new OnClickListener() {
+//
+//				@Override
+//				public void onClick(View v) {
+//					addData(position,prev);
+//				}
+//			}).show();
+//		}
+//		if (position == 0) {
+//			addData(position,prev);
+//		}
+//	}
+//
+//	/**
+//	 * �����ɾ������
+//	 * @param position
+//	 */
+//	public void addData(int position,StoriesEntity item) {
+//		mData.add(position, item);
+//		notifyItemInserted(position);
+//	}
 
 	/**
 	 * �Զ���item�ĵ���ӿڣ�ʵ��item�ĵ�������¼�

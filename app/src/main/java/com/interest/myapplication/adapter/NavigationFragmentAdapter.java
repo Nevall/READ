@@ -1,6 +1,7 @@
 package com.interest.myapplication.adapter;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.interest.myapplication.R;
@@ -20,13 +21,18 @@ import android.widget.TextView;
  */
 public class NavigationFragmentAdapter extends BaseAdapter {
     private Context context;
-    private List<ThemesListItem> themes;
+    private List<ThemesListItem> themes = new ArrayList<ThemesListItem>();
     private LayoutInflater inflater;
 
-    public NavigationFragmentAdapter(Context context, List<ThemesListItem> themes) {
+    public NavigationFragmentAdapter(Context context) {
         this.context = context;
-        this.themes = themes;
         inflater = LayoutInflater.from(context);
+    }
+
+
+    public void addDatas(List<ThemesListItem> themes) {
+        this.themes = themes;
+        notifyDataSetChanged();
     }
     
 	/**

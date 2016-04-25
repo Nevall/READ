@@ -47,7 +47,6 @@ public class NavigationFragment extends BaseFragment implements OnClickListener{
 		intentFilter.addAction(Constant.ACTION_LOAD_NAVIGATION_THEMES_OFFLINE_SUCCESS);
 		receiver = new NFBroadcastReceiver();
 		manager.registerReceiver(receiver,intentFilter);
-
 		View view = inflater.inflate(R.layout.navigation_menu, container, false);
 		tv_main = (TextView) view.findViewById(R.id.tv_main);
 		tv_main.setOnClickListener(this);
@@ -67,6 +66,8 @@ public class NavigationFragment extends BaseFragment implements OnClickListener{
 				//                ((MainActivity) mActivity).closeMenu();
 			}
 		});
+		adapter = new NavigationFragmentAdapter(mActivity);
+		lv_item.setAdapter(adapter);
 		return view;
 	}
 
@@ -120,8 +121,7 @@ public class NavigationFragment extends BaseFragment implements OnClickListener{
 				items = (List<ThemesListItem>) intent.getSerializableExtra("themes");
 				//����������Ϣ�����UI
 				if (items != null) {
-					adapter = new NavigationFragmentAdapter(mActivity, items);
-					lv_item.setAdapter(adapter);
+					adapter.addDatas(items);
 				}
 			}
 		}

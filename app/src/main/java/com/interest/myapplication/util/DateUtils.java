@@ -1,19 +1,23 @@
 package com.interest.myapplication.util;
+
+import android.content.Context;
+
+import com.interest.myapplication.R;
+
 /**
- * 日期格式工具类
+ * 锟斤拷锟节革拷式锟斤拷锟斤拷锟斤拷
  */
 public class DateUtils {
 	/**
-	 * 设置日期格式
+	 * 锟斤拷锟斤拷锟斤拷锟节革拷式
 	 */
-	public static String convertDate(String date) {
+	public static String convertDate(Context context, String date) {
 		String result = date.substring(0,4);
-		result += "年";
+		result += context.getString(R.string.year);
         result += date.substring(4, 6);
-        result += "月";
+        result += context.getString(R.string.month);
         result += date.substring(6, 8);
-        result += "日";
+        result += context.getString(R.string.day);
         return result;
 	}
-
 }

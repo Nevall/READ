@@ -106,9 +106,10 @@ public class ThemeFragment extends BaseFragment{
 		adapter = new ThemeFragmentAdapter(getActivity(),themesRecyclerView);
 		themesRecyclerView.setAdapter(adapter);
 		//����RecycleView�����ƶ��Ͳ໬ɾ����
-		ItemTouchHelper.Callback callback = new SimpleItemTouchHelperCallback(adapter);
-		ItemTouchHelper mItemTouchHelper = new ItemTouchHelper(callback);
-		mItemTouchHelper.attachToRecyclerView(themesRecyclerView);
+		//由于滑动删除功能冲突，取消滑动删除功能
+//		ItemTouchHelper.Callback callback = new SimpleItemTouchHelperCallback(adapter);
+//		ItemTouchHelper mItemTouchHelper = new ItemTouchHelper(callback);
+//		mItemTouchHelper.attachToRecyclerView(themesRecyclerView);
 	}
 
 
